@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="std-info">
+       <h1>Students Information</h1>
+       <h4>Enter the basic Information related with the student.</h4>
+    <form action="/action" class="form">
+       <div class="inside-form">
+        <label for="name">Enter the student name :</label>
+        <input type="text" placeholder="Enter name" id="name" autocomplete=" student name">
+        
+         <label for="roll-no">Enter student roll-number :</label>
+        <input type="text" placeholder="Enter roll number" id="roll-no" autocomplete="roll-no">
+        
+        
+        <label for="dob">Enter student date-of-birth :</label>
+        <input type="date" placeholder="Enter DOB" id="dob" autocomplete="dob">
+       
+         <label for="phone">Enter student phone number :</label>
+        <input type="tel" placeholder="Enter phone number" id="phone" autocomplete="phone">
+        
+    
+      
+            <label for="stream">Enter the stream which you choosen :</label>
+            <select name="stream" id="stream" autocomplete="stream">
+                <option value="">Select your stream</option>
+                <option value="Medical">Medical</option>
+                <option value="Non-medical">Non-Medical</option>
+                <option value="Commerace">Commerace</option>
+                <option value="Arts">Arts</option>
+
+            </select>
+       
+       <label for="sub">Enter your subjects :</label>
+        <input type="text" placeholder="Enter subjects" id="sub">
+    </div>
+       <button id="btn">Submit</button>
+    </div>
+</form>
+    <script src="app.js"></script>
+</body>
+</html>
